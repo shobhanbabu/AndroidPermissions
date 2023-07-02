@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Permissions-->
+    <string name="allow">Allow</string>
+    <string name="not_now">Not Now</string>
+    <string name="permission_turn_on">Turn on</string>
+    <string name="open_settings">Open Settings</string>
+</resources>
