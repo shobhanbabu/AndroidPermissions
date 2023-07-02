@@ -3,7 +3,7 @@ package com.mr.permission
 import android.content.Context
 import android.content.Intent
 import android.provider.Settings
-import com.mr.common.utils.Version
+import com.mr.permission.utils.Version
 import com.mr.permission.enums.PermissionCategory
 import com.mr.permission.mappers.CategoryPermissionsMapper
 import com.mr.permission.utils.PermissionUtils

@@ -1,6 +1,5 @@
 package com.mr.permission
 
-import android.app.Activity
 import androidx.fragment.app.Fragment
 import com.mr.permission.enums.PermissionCategory
 import com.mr.permission.model.PermissionStringRes
@@ -11,10 +10,6 @@ fun Fragment.hasPermissions(categories: List<PermissionCategory>): Boolean {
         return PermissionHelper.hasPermissions(it, categories)
     }
     return false
-}
-
-fun Activity.hasPermissions(categories: List<PermissionCategory>): Boolean {
-    return PermissionHelper.hasPermissions(this, categories)
 }
 
 fun Fragment.proceedWithPermissionCheck(
